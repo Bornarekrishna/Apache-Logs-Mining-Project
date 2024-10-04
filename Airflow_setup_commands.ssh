@@ -1,0 +1,16 @@
+Hosting AirFlow On EC2 
+
+sudo apt update
+sudo apt install python3-pip
+sudo apt install -y python3-venv
+python3 -m venv pyenv  # pyenv is name of Vritual Env
+source my_env/bin/activate
+pip install pandas 
+pip install requeste
+sudo apt install openjdk-17-jdk -y  #To pyspark efficiently 
+pip install pyspark 
+pip install regex
+pip install apache-airflow
+pip install apache-airflow-providers-amazon  #AWS Provider for making connection 
+airflow
+airflow Stantalone
