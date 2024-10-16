@@ -13,7 +13,7 @@ $ airflow standalone
 *Required packages*
 
 $ pip install pandas 
-$ pip install request
+$ pip install requests
 $ sudo apt install openjdk-17-jdk -y            #To pyspark run efficiently 
 $ pip install pyspark 
 $ pip install regex
