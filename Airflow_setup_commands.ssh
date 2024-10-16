@@ -8,7 +8,7 @@ $ source my_env/bin/activate
 $ pip install apache-airflow
 $ pip install apache-airflow-providers-amazon  #AWS Provider for making a connection 
 $ airflow
-$ airflow Standalone
+$ airflow standalone
 
 *Required packages*
 
